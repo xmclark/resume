@@ -8,4 +8,5 @@ COPY package-scripts.yaml .
 COPY src/resume.md src/resume.md
 COPY src/generate.js src/generate.js
 COPY src/index.js src/index.js
-ENTRYPOINT ["npx", "nps", "watch"]
+ENTRYPOINT ["npx", "nps"]
+CMD ["prod"]
