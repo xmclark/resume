@@ -18,7 +18,7 @@
 > * Migrated legacy workloads off of wrongly-sized GKE infrastructure to better, more secure CD solution.
 
 **Senior Software Engineer - Platform Engineering**,
-**The Home Depot QuoteCenter**, Vancouver, WA    June 2019-Feb 2020
+**The Home Depot QuoteCenter**, Vancouver, WA    June 2019 - Feb 2020
 > * Team lead on Platform Services team for microservices on Kubernetes at QuoteCenter.
 > * Designed IAM solution and migration plan for associate identities in QuoteCenter.
 > * Provisioned services with GKE and demonstrated OIDC authentication with Auth0 and Keycloak.
@@ -56,7 +56,7 @@
 > * Expertise: Kubernetes, Terraform, JavaScript, C#, Rust, Apache Kafka, CircleCI
 > * Languages: C++, C#, Scala, JavaScript, TypeScript, SQL
 > * Storage Technologies: GCP Storage (S3), Cloud Pub/Sub Microsoft SQL Server, Sqlite, Cassandra
-> * Cloud Providers: Google Cloud Platform (enterprise) and DigitalOcean (side projects)
+> * Cloud Providers: Google Cloud Platform (enterprise), Render (side projects), and DigitalOcean (side projects)
 > * CI/CD Tools: Jenkins, GitHub Actions, Spinnaker, Harness (Kubernetes CD)
 > * Platform Tools: OAuth2 + OIDC (the specs), Keycloak IDP, PingFederate IDP
 
@@ -74,3 +74,5 @@
 - - - -
 > **Email:** mackenzie.a.z.c@gmail.com
 > **Phone:** 503-739-2279
+
+> **Created with [node, puppeteer, and render cloud](https://github.com/xmclark/resume)**
