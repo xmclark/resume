@@ -1,6 +1,6 @@
 <center><span style="font-family:Didot; font-size:2.5em;">Mackenzie Clark</span></center>
 <center><span style="font-family:Didot; font-size:1.5em; text-align: center;">**Github:**[@xmclark](https://github.com/xmclark)</span></center>
-<center><span style="font-family:Didot; font-size:1.5em;">**Email:**[mackenzie.a.z.c@gmail.com](mackenzie.a.z.c@gmail.com)</span></center>
+<center><span style="font-family:Didot; font-size:1.5em;">**Email:**[mackenzie.a.z.c@gmail.com](mail:mackenzie.a.z.c@gmail.com)</span></center>
 <center><span style="font-family:Didot; font-size:1.5em;">Portland, OR USA
 </span></center>
 

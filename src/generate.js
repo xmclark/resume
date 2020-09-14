@@ -14,7 +14,12 @@ if (!result) {
     fs.mkdirSync('out');
 }
 
-convertHTMLToPDF(html, pdf => fs.writeFileSync('./out/resume.pdf', pdf), { format: 'Letter', scale: 0.72 });
+convertHTMLToPDF(html, pdf => fs.writeFileSync('./out/resume.pdf', pdf), { format: 'Letter', scale: 0.72 }, {
+    args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox'
+    ]
+});
 
 fs.writeFileSync('./out/index.html', html, 'utf8');
 

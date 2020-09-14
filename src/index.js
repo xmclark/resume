@@ -1,7 +1,8 @@
 // just do generate on startup
 require('./generate');
 
-const path = require('path');
+const { createTerminus } = require('@godaddy/terminus');
+const http = require('http');
 const express = require('express');
 const livereload = require('livereload');
 
@@ -15,4 +16,11 @@ lrserver.watch('out');
 console.log('starting express server.');
 express.static.mime.define({'text/plain': ['md']});
 app.use('/', express.static('out'))
-app.listen(port);
+
+const server = http.createServer(app)
+
+createTerminus(server, {
+    signal: 'SIGINT'
+})
+
+server.listen(port);
