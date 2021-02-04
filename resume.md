@@ -9,7 +9,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Site reliability engineer, systems engineer, and software engineer with 5 years of experience writing high performance, distributed software using Kubernetes, Kafka, Cassandra, Rust, Node.js, and .NET. I'm Passionate about Rust, WebAssembly, and serverless cloud technologies. 
+Site reliability engineer and cloud engineer with 5 years of experience writing high performance, distributed software using Kubernetes, Kafka, Cassandra, Rust, Node.js, and .NET. I'm Passionate about Rust, WebAssembly, and serverless cloud technologies. 
 
 ## Experience
 
