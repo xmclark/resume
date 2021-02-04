@@ -19,7 +19,7 @@ hand -->
 
 - Planned migration for 88 QuoteCenter Kubernetes continuous delivery pipelines from Harness.io to Spinnaker. 
 - Implemented observability-as-code framework for managing SLIs, SLOs and generating Terraform for DataDog dashboards and alerts using Node.js. 
-- Embedded with customer teams to help train developers on instrumenting applications with Datadog observability, writing CircleCI pipelines, configuring harness.io pipelines, managing cloud infrastructure with terraform, and evangelizing devops. 
+- Embedded with customer teams advising on SLI+SLO design and prescribing patterns for Helm Chart development.
 - Implemented re-usable CircleCI pipeline for publishing Helm Charts to GSC Chart repository.
 - Migrated all lower-lifecycle Kubernetes "Merch" environments from legacy Jenkins to Harness.io.
 
@@ -41,7 +41,7 @@ hand -->
 
 ### <span>Junior Software Engineer at PLEXSYS Interface Products</span> <span>April 2017 - Feb 2018</span>
 
-- Wrote Orbit movement functionality of airplane models in ASCOT7 using Scala, JavaFX, and C++11, 
+- Wrote Orbit-movement functionality of airplane models in ASCOT7 using Scala, JavaFX, and C++11, 
 - Wrote strongly typed unit-test framework for the entity-component-system testing using C++11 templates.
 - Maintained packet analyzer application with Qt Framework, and C++11.
 
