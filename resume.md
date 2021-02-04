@@ -9,7 +9,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Site reliability engineer and cloud engineer with 5 years of experience writing high performance, distributed software using Kubernetes, Kafka, Cassandra, Rust, Node.js, and .NET. I'm Passionate about Rust, WebAssembly, and serverless cloud technologies. 
+Site reliability and cloud engineer with 5 years experience delivering kick-ass cloud solutions, bring legacy apps to the cloud, and evangelizing DevOps with customers.
 
 ## Experience
 
@@ -17,14 +17,15 @@ Site reliability engineer and cloud engineer with 5 years of experience writing 
 hand -->
 ### <span>Lead Software Engineer - SRE and Cloud Engineering at The Home Depot QuoteCenter</span> <span>Feb 2020 - Present</span>
 
-- Planned migration of all QuoteCenter Kubernetes continuous delivery pipelines from harness.io to spinnaker. 
+- Planned migration for 88 QuoteCenter Kubernetes continuous delivery pipelines from Harness.io to Spinnaker. 
 - Implemented observability-as-code framework for managing SLIs, SLOs and generating Terraform for DataDog dashboards and alerts using Node.js. 
 - Embedded with customer teams to help train developers on instrumenting applications with Datadog observability, writing CircleCI pipelines, configuring harness.io pipelines, managing cloud infrastructure with terraform, and evangelizing devops. 
 - Implemented re-usable CircleCI pipeline for publishing Helm Charts to GSC Chart repository.
+- Migrated all lower-lifecycle Kubernetes "Merch" environments from legacy Jenkins to Harness.io.
 
 ### <span>Senior Software Engineer, Platform Engineering at The Home Depot QuoteCenter</span> <span>June 2019 - Feb 2020</span>
 
-- Presented Identity and access management transformation to leadership that would migrate all applications to use OIDC SSO with fine-grain permissions in JWTs, and federated identity with THD internal IdP.
+- Presented Identity and access management transformation to leadership that would migrate all applications to OIDC SSO and and federated identity with THD internal IdP.
 - Completed report on all authentication and authorization patterns used at QuoteCenter, noting methods like OAuth2, stateless vs stateful sessions, and password security. 
 - Completed assessment of all "bulkloader", data transfer jobs at QuoteCenter, noting compute layer targets like GKE or GCE, deployment mechanism like Harness or Jenkins, and orchestration complexity.
 
@@ -46,8 +47,8 @@ hand -->
 
 ### <span>Applications Engineer at Transim, Arrow Electronics</span> <span>Nov 2015 - Oct 2016</span>
 
- - QA and testing for web-based electronic design tools
- - Documentation writing for app-builder tools
+ - QA and testing for web-based electronic design tools.
+ - Documentation writing for app-builder tools.
 
 
 ## Education
@@ -65,4 +66,4 @@ hand -->
    - Storage Technologies: GCP Storage (S3), Cloud Pub/Sub Microsoft SQL Server, Sqlite, Cassandra
    - Cloud Providers: Google Cloud Platform (enterprise), Render (side projects), and DigitalOcean (side projects)
    - CI/CD Tools: Jenkins, GitHub Actions, Spinnaker, Harness (Kubernetes CD)
-   - Platform Tools: OAuth2 + OIDC (the specs), Keycloak IDP, PingFederate IDP
+   - Platform Tools: OAuth2 + OIDC (the specs), Keycloak IDP
