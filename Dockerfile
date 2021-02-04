@@ -1,12 +1,8 @@
-FROM node:lts
+FROM python
 WORKDIR /opt/app
-RUN apt-get update -y && apt-get install gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget -y
-COPY package-lock.json .
-COPY package.json .
-RUN npm ci
-COPY package-scripts.yaml .
-COPY src/resume.md src/resume.md
-COPY src/generate.js src/generate.js
-COPY src/index.js src/index.js
-ENTRYPOINT ["npx", "nps"]
-CMD ["prod"]
+COPY ./resume.md .
+COPY ./resume.py .
+COPY ./resume.css .
+RUN pip install markdown weasyprint && python resume.py && weasyprint resume.html resume.pdf
+EXPOSE 8000
+ENTRYPOINT ["python3", "-m", "http.server"]

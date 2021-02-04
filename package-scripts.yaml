@@ -1,6 +1,0 @@
-scripts:
-  build: node ./src/generate.js
-  prod: node ./src/index.js
-  start: nodemon --watch src -e md,js ./src/index.js
-  prewatch: node src/index.js &
-  watch: node src/index.js & node ./node_modules/watch-run/bin/watch -p './src/**' npx nps build
