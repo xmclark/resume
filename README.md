@@ -34,3 +34,6 @@ rule](https://developer.mozilla.org/en-US/docs/Web/CSS/%40page/size).
 If you make a resume.css that you like, please submit a pull request. I'd be
 happy to collect these.
 
+## Release
+
+The helm chart in `./helm`.
