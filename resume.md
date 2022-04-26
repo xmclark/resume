@@ -15,7 +15,7 @@ I am a site-reliability and cloud engineer with 6 years experience delivering sc
 
 - Certified GCP Professional Cloud Architect, proficient in Azure, and Digital Ocean clouds
 - Expertise in managing GKE infrastructure and delivering applications on k8s
-- Expertise in managing cloud infrastructure-as-code pattern using Terraform for any cloud
+- Expertise in managing cloud infrastructure as-code using Terraform
 - Expertise with delivery tools Jenkins, GitHub Actions, Spinnaker, and Harness.io
 - Expertise with observability tools DataDog and Kibana for APM tracing, logs and metrics
 - Strong proficiency with delivering containerized apps using Node.js, .Net Core, and JVM
