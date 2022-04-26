@@ -28,6 +28,7 @@ I am a site-reliability and cloud engineer with 6 years experience delivering sc
 hand -->
 ### <span>Lead Software Engineer - SRE and Cloud Engineering at The Home Depot QuoteCenter</span> <span>Feb 2020 - Present</span>
 
+- Built a new, healthy Cloud Engineering team by building strong relationships, creating an environment for professional growth, and instilling a mode of operational excellence   
 - Designed CI/CD patterns for batch and streaming processes on Google Cloud Dataflow
 - Planned and executed GKE upgrades to safely mitigate risk for breaking-API changes in Kubernetes
 - Migrated terraform configuration describing thousands of GCP resources from self-hosted Atlantis to Terraform Enterprise 
