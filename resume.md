@@ -39,7 +39,7 @@ hand -->
 
 ### <span>Senior Software Engineer, Platform Engineering at The Home Depot QuoteCenter</span> <span>June 2019 - Feb 2020</span>
 
-- Designed IAM transformation to migrate applications to OIDC for authentication and OAuth2 for authorization for all services.
+- Designed IAM transformation to migrate applications to OIDC for authentication and OAuth2 for authorization.
 - Audited data processing jobs in GKE and GCE to document deployment mechanisms using Jenkins and harness.io and diagram orchestration workflows.
 - Designed and implemented reactive, event-based service using Confluent Cloud Kafka for QuoteCenter supplier domain.
 
@@ -55,7 +55,7 @@ hand -->
 
 ### <span>Junior Software Engineer at PLEXSYS Interface Products</span> <span>April 2017 - Feb 2018</span>
 
-- Wrote Orbit-movement airplane models in for military simulator ASCOT7 using Scala, JavaFX, and C++11, 
+- Wrote Orbit-movement airplane models for military simulator ASCOT7 using Scala, JavaFX, and C++11, 
 - Wrote strongly typed unit-test framework for entity-component-system testing using C++11 templates.
 - Maintained packet analyzer application with Qt Framework, and C++11 for inspecting DIS traffic.
 
