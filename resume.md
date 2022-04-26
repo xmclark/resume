@@ -29,9 +29,9 @@ hand -->
 ### <span>Lead Software Engineer - SRE and Cloud Engineering at The Home Depot QuoteCenter</span> <span>Feb 2020 - Present</span>
 
 - Led a new Cloud Engineering team by building strong relationships, creating an environment for professional growth, and instilling a mode of operational excellence   
-- Designed CI/CD patterns for batch and streaming processes on Google Cloud Dataflow 
-- Planned and executed GKE upgrades to safely mitigate risk for breaking-API changes in Kubernetes
-- Migrated terraform configuration describing thousands of GCP resources from self-hosted Atlantis to Terraform Enterprise 
+- Designed CI/CD patterns for batch and streaming processes on Google Cloud Dataflow.
+- Planned and executed GKE upgrades to safely mitigate risk for breaking-API changes in Kubernetes.
+- Migrated terraform configuration describing thousands of GCP resources from self-hosted Atlantis to Terraform Enterprise. 
 - Implemented observability-as-code framework for managing SLOs and generates DataDog dashboards using Node.js. 
 - Embedded with customer teams advising on SLI + SLO design and prescribing patterns for Helm Chart development.
 - Implemented re-usable CircleCI pipeline for publishing Helm Charts to GSC Chart repository.
